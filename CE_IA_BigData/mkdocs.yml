@@ -7,6 +7,7 @@ nav:
   - "3. Calendari Escolar": '3.Calendari.md'
   - "4. Convocatòries": '4.Convocatories.md'
   - "5. Avaluació": '5.Avaluació.md'
+  - "6. Altres consideracions": '6.Altres.md'
   
 theme:
   name: 'material'

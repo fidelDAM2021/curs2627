@@ -6,7 +6,7 @@ hide:
 <style>
   body{
     background-size: cover; 
-    background-image: img/fons.png;
+    background-image: url("./img/fons.png");
   }
   .md-header{
     display: none;
