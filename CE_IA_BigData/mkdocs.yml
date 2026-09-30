@@ -1,0 +1,44 @@
+site_name: Curs d'Especialització en IA i Big Data.
+
+nav:
+  - "Inici": 'index.md'
+  - "1. Presentació": '1.Presentacio.md'
+  - "2. Correus, eines corporatives i comunicació": '2.Eines.md'
+  - "3. Calendari Escolar": '3.Calendari.md'
+  - "4. Convocatòries": '4.Convocatories.md'
+  - "5. Avaluació": '5.Avaluació.md'
+  
+theme:
+  name: 'material'
+  logo: 'img/logo.svg'
+  favicon: 'img/logo.svg'
+  features:
+    - content.code.copy # PEr copiar codi
+  palette:
+    accent: deep purple
+    primary: amber
+
+
+extra_css:
+  - css/material-just.css
+
+plugins:
+  - search
+  - glightbox   # Per vore les imatges en gran quan fas clic en elles.
+  # - pandoc
+
+markdown_extensions:
+  - attr_list           # Permet incorporar atributs a les imatges { width=100px }
+  - md_in_html # Junt a attr_list per afegir peus a les imatges
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      baselevel: 2
+      toc_depth: 3
