@@ -24,9 +24,7 @@ extra_css:
 
 plugins:
   - search
-  - glightbox   # Per vore les imatges en gran quan fas clic en elles.
-  # - pandoc
-
+ 
 markdown_extensions:
   - attr_list           # Permet incorporar atributs a les imatges { width=100px }
   - md_in_html # Junt a attr_list per afegir peus a les imatges

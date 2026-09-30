@@ -5,7 +5,6 @@ hide:
 ---
 <style>
   body{
-    background-image: url(img/bg.png); 
     background-size: cover; 
   }
   .md-header{
