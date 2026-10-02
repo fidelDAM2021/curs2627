@@ -11,6 +11,8 @@ nav:
   
 theme:
   name: 'material'
+  variant: 'classic'
+  language: 'ca'
   logo: 'img/logo.svg'
   favicon: 'img/logo.svg'
   features:
@@ -25,7 +27,10 @@ extra_css:
 
 plugins:
   - search
- 
+
+extra:
+  generator: false
+
 markdown_extensions:
   - attr_list           # Permet incorporar atributs a les imatges { width=100px }
   - md_in_html # Junt a attr_list per afegir peus a les imatges

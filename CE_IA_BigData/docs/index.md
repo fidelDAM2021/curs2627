@@ -33,4 +33,4 @@ hide:
 </style>
 
 
-[Comencem!](1.Presentacio.md){ .md-button .centrat }
+[Comencem!](1.Presentacio.md){ .md-button .md-button--primary .centrat }
