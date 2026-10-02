@@ -1,6 +1,7 @@
 [project]
 site_url = "https://www.example.com/"
-site_name = "Documentation"
+site_name = "CE IA i Big Data 26-27"
+docs_dir = "./CE_IA_BigData/docs"
 # site_description = "Your project description"
 # site_author = "Your name"
 
@@ -11,8 +12,13 @@ site_name = "Documentation"
 # edit_uri = "edit/main/docs/"
 
 nav = [
-  { "Get started" = "index.md" },
-  { "Markdown in 5min" = "markdown.md" },
+  { "Inici" = "index.md" },
+  { "1. Presentació" = "1.Presentacio.md" },
+  { "2. Correus, eines corporatives, comunicació" = "2.Eines.md"},
+  { "3. Calendari escolar: " = "3.Calendari.md"},
+  { "4. Convocatòries:" = "4.Convocatories.md"},
+  { "5. Avaluació:" = "5.Avaluació.md"},
+  { "6. Altres consideracions:" = "6.Altres.md"}
 ]
 
 # extra_css = ["stylesheets/extra.css"]
@@ -22,7 +28,8 @@ nav = [
 # variant = "classic"
 # custom_dir = "overrides"
 # favicon = "images/favicon.png"
-language = "en"
+language = "ca"
+generator = "false"
 features = [
   "announce.dismiss",
   # "content.action.edit",
