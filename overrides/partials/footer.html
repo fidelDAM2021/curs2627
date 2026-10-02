@@ -1,3 +1,9 @@
-<div style="background:red;color:white;padding:20px">
-  FOOTER PERSONALITZAT
-</div>
+{% if config.copyright %}
+  <div class="md-footer-meta">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        {{ config.copyright }}
+      </div>
+    </div>
+  </div>
+{% endif %}
