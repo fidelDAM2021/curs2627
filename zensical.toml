@@ -15,10 +15,10 @@ nav = [
   { "Inici" = "index.md" },
   { "1. Presentació" = "1.Presentacio.md" },
   { "2. Correus, eines corporatives, comunicació" = "2.Eines.md"},
-  { "3. Calendari escolar: " = "3.Calendari.md"},
-  { "4. Convocatòries:" = "4.Convocatories.md"},
-  { "5. Avaluació:" = "5.Avaluació.md"},
-  { "6. Altres consideracions:" = "6.Altres.md"}
+  { "3. Calendari escolar" = "3.Calendari.md"},
+  { "4. Convocatòries" = "4.Convocatories.md"},
+  { "5. Avaluació" = "5.Avaluació.md"},
+  { "6. Altres consideracions" = "6.Altres.md"}
 ]
 
 # extra_css = ["stylesheets/extra.css"]
