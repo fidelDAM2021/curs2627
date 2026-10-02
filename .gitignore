@@ -1,4 +1,5 @@
 venv
+site
 # Carpeta de la documentació generada per MkDocs
 ./CE_IA_BigData/site/
 
